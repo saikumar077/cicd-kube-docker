@@ -1,11 +1,11 @@
 pipeline {
 
     agent any
-/*
+
 	tools {
-        maven "maven3"
+        jdk 'Java 11'
     }
-*/
+
     environment {
         registry = "saigit/vproappdock"
         registryCredential = 'dockerhub'
