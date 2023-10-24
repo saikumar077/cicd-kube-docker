@@ -3,7 +3,7 @@ pipeline {
     agent any
 
 	tools {
-        jdk 'Java 11'
+        jdk 'OracleJDK11'
     }
 
     environment {
