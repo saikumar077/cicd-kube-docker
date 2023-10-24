@@ -52,6 +52,7 @@ pipeline {
 
             environment {
                 scannerHome = tool 'mysonarscanner4'
+                JAVA_HOME = tool 'OracleJDK11'
             }
 
             steps {
